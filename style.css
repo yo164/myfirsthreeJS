@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #171717;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+}
+
+.element {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #222222;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.element h2 {
+    color: #008f50;
+}
